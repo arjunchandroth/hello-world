@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AVD Tower | Commercial Space for Lease in Azhikode, Kerala</title>
+    <meta
+      name="description"
+      content="AVD Tower offers commercial space for rent in Azhikode, including first-floor office space near Kannur. Discover a trusted business space in Kerala with bank occupancy on the ground floor."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              avd: {
+                bg: '#F8F7F3',
+                text: '#163126',
+                muted: '#4B5A54',
+                accent: '#234436',
+                border: '#D9DDD6',
+                gold: '#B59A5B'
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif']
+            }
+          }
+        }
+      };
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      .reveal {
+        opacity: 0;
+        transform: translateY(14px);
+        transition: opacity 0.7s ease, transform 0.7s ease;
+      }
+
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .timeline-dot::before {
+        content: '';
+        position: absolute;
+        left: -1.12rem;
+        top: 0.6rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 9999px;
+        background: #234436;
+      }
+    </style>
+  </head>
+  <body class="bg-avd-bg text-avd-text antialiased">
+    <header class="sticky top-0 z-30 border-b border-avd-border/80 bg-avd-bg/95 backdrop-blur">
+      <div class="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4 md:px-8">
+        <a href="#top" class="text-lg font-semibold tracking-wide">AVD Tower</a>
+
+        <nav aria-label="Primary" class="hidden items-center gap-8 text-sm text-avd-muted md:flex">
+          <a href="#founder" data-i18n="navFounder" class="transition-colors hover:text-avd-text">Founder</a>
+          <a href="#space" data-i18n="navSpace" class="transition-colors hover:text-avd-text">Space</a>
+          <a href="#amenities" data-i18n="navAmenities" class="transition-colors hover:text-avd-text">Amenities</a>
+          <a href="#contact" data-i18n="navContact" class="transition-colors hover:text-avd-text">Contact</a>
+        </nav>
+
+        <div class="flex items-center gap-2">
+          <button
+            type="button"
+            data-lang-btn="en"
+            class="lang-btn rounded-full border border-avd-border px-3 py-1 text-xs font-medium"
+            aria-label="Switch to English"
+          >
+            EN
+          </button>
+          <button
+            type="button"
+            data-lang-btn="ml"
+            class="lang-btn rounded-full border border-avd-border px-3 py-1 text-xs font-medium"
+            aria-label="Switch to Malayalam"
+          >
+            മലയാളം
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- Hero -->
+      <section class="border-b border-avd-border" aria-labelledby="hero-title">
+        <div class="mx-auto grid max-w-6xl gap-14 px-6 py-16 md:grid-cols-2 md:items-center md:px-8 md:py-24">
+          <div class="reveal">
+            <p class="mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-avd-muted" data-i18n="heroEyebrow">
+              AVD Tower, Azhikode
+            </p>
+            <h1 id="hero-title" class="max-w-xl text-4xl font-semibold leading-tight md:text-5xl" data-i18n="heroTitle">
+              Professional Space in Azhikode, Built on Legacy
+            </h1>
+            <p class="mt-6 max-w-xl text-base leading-relaxed text-avd-muted" data-i18n="heroSubtitle">
+              A refined commercial address in Vankulathuvayal, with strong local presence, established foot traffic, and first-floor space available for lease.
+            </p>
+
+            <div class="mt-8 flex flex-wrap gap-3">
+              <a
+                href="#contact"
+                data-i18n="ctaPrimary"
+                class="rounded-md bg-avd-accent px-5 py-3 text-sm font-medium text-white transition hover:bg-avd-text"
+              >
+                Enquire for Leasing
+              </a>
+              <a
+                href="#space"
+                data-i18n="ctaSecondary"
+                class="rounded-md border border-avd-border px-5 py-3 text-sm font-medium text-avd-text transition hover:border-avd-accent"
+              >
+                View Space Details
+              </a>
+            </div>
+
+            <ul class="mt-10 space-y-3 border-t border-avd-border pt-6 text-sm text-avd-muted">
+              <li data-i18n="trust1">Ground floor occupied by bank</li>
+              <li data-i18n="trust2">Prime roadside presence</li>
+              <li data-i18n="trust3">Ideal for office and professional use</li>
+            </ul>
+          </div>
+
+          <div class="reveal">
+            <div class="aspect-[5/4] w-full rounded-md border border-avd-border bg-white p-4">
+              <div class="flex h-full items-center justify-center rounded border border-dashed border-avd-border bg-avd-bg text-center">
+                <p class="px-6 text-sm text-avd-muted" data-i18n="heroImagePlaceholder">Building facade image placeholder</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Highlights -->
+      <section class="border-b border-avd-border">
+        <div class="mx-auto grid max-w-6xl gap-6 px-6 py-8 md:grid-cols-3 md:px-8">
+          <div class="reveal border-l-2 border-avd-accent pl-4">
+            <p class="text-xs uppercase tracking-wider text-avd-muted" data-i18n="hl1Label">Location</p>
+            <p class="mt-1 text-sm" data-i18n="hl1Value">Vankulathuvayal, Azhikode, Kerala</p>
+          </div>
+          <div class="reveal border-l-2 border-avd-accent pl-4">
+            <p class="text-xs uppercase tracking-wider text-avd-muted" data-i18n="hl2Label">Occupancy Status</p>
+            <p class="mt-1 text-sm" data-i18n="hl2Value">Ground floor leased to bank</p>
+          </div>
+          <div class="reveal border-l-2 border-avd-accent pl-4">
+            <p class="text-xs uppercase tracking-wider text-avd-muted" data-i18n="hl3Label">Availability</p>
+            <p class="mt-1 text-sm" data-i18n="hl3Value">First floor now open for lease</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Founder -->
+      <section id="founder" class="border-b border-avd-border">
+        <div class="mx-auto grid max-w-6xl gap-12 px-6 py-16 md:grid-cols-2 md:px-8 md:py-24">
+          <div class="reveal">
+            <p class="text-xs uppercase tracking-[0.18em] text-avd-muted" data-i18n="founderEyebrow">Founder legacy</p>
+            <h2 class="mt-3 text-3xl font-semibold" data-i18n="founderTitle">Built as a homecoming vision</h2>
+            <div class="mt-6 space-y-5 text-avd-muted">
+              <p data-i18n="founderP1">
+                Ashokan CK's story begins in Azhikode. At age 20, he left Kerala to build a future in Saudi Arabia and the Middle East.
+              </p>
+              <p data-i18n="founderP2">
+                Over 35+ years of disciplined work, he built his reputation through commitment, consistency, and trust.
+              </p>
+              <p data-i18n="founderP3">
+                AVD Tower was created as his homecoming legacy: a refined commercial address that gives back to his hometown with purposeful, high-quality space for local businesses.
+              </p>
+            </div>
+            <blockquote class="mt-8 border-l-2 border-avd-gold pl-4 text-sm italic text-avd-text" data-i18n="founderQuote">
+              "This tower is more than a building — it is a return to where my journey began."
+            </blockquote>
+          </div>
+
+          <div class="reveal space-y-6">
+            <div class="aspect-[4/3] rounded-md border border-avd-border bg-white p-4">
+              <div class="flex h-full items-center justify-center rounded border border-dashed border-avd-border bg-avd-bg text-sm text-avd-muted" data-i18n="founderImagePlaceholder">
+                Founder image placeholder
+              </div>
+            </div>
+
+            <div class="relative ml-4 space-y-4 border-l border-avd-border pl-5 text-sm text-avd-muted">
+              <div class="timeline-dot relative" data-i18n="timeline1">Early career journey begins from Azhikode</div>
+              <div class="timeline-dot relative" data-i18n="timeline2">35+ years of professional work in the Gulf</div>
+              <div class="timeline-dot relative" data-i18n="timeline3">Returns to Kerala and establishes AVD Tower</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Space -->
+      <section id="space" class="border-b border-avd-border">
+        <div class="mx-auto max-w-6xl px-6 py-16 md:px-8 md:py-24">
+          <div class="reveal max-w-2xl">
+            <p class="text-xs uppercase tracking-[0.18em] text-avd-muted" data-i18n="spaceEyebrow">Space availability</p>
+            <h2 class="mt-3 text-3xl font-semibold" data-i18n="spaceTitle">Structured for credible business operations</h2>
+          </div>
+
+          <div class="mt-10 grid gap-8 md:grid-cols-2">
+            <article class="reveal rounded-md border border-avd-border bg-white p-6">
+              <h3 class="text-lg font-semibold" data-i18n="groundTitle">Ground Floor</h3>
+              <p class="mt-2 text-sm text-avd-muted" data-i18n="groundDesc">Occupied by a bank, creating strong daily trust and visibility.</p>
+            </article>
+
+            <article class="reveal rounded-md border border-avd-accent bg-white p-6">
+              <h3 class="text-lg font-semibold text-avd-accent" data-i18n="firstTitle">First Floor (Available)</h3>
+              <p class="mt-2 text-sm text-avd-muted" data-i18n="firstDesc">Ready for lease to quality tenants seeking a reliable commercial address.</p>
+              <ul class="mt-4 grid grid-cols-2 gap-2 text-sm text-avd-text">
+                <li data-i18n="ideal1">Offices</li>
+                <li data-i18n="ideal2">Clinics</li>
+                <li data-i18n="ideal3">Consultancies</li>
+                <li data-i18n="ideal4">Tuition centres</li>
+              </ul>
+              <a href="#contact" class="mt-6 inline-block rounded-md bg-avd-gold px-4 py-2 text-sm font-medium text-white" data-i18n="scheduleVisit">Schedule a Visit</a>
+            </article>
+          </div>
+
+          <div class="reveal mt-8 aspect-[21/9] rounded-md border border-avd-border bg-white p-4">
+            <div class="flex h-full items-center justify-center rounded border border-dashed border-avd-border bg-avd-bg text-center">
+              <p class="px-6 text-sm text-avd-muted" data-i18n="floorPlanPlaceholder">First-floor plan placeholder</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Amenities -->
+      <section id="amenities" class="border-b border-avd-border">
+        <div class="mx-auto max-w-6xl px-6 py-16 md:px-8 md:py-24">
+          <div class="reveal max-w-2xl">
+            <p class="text-xs uppercase tracking-[0.18em] text-avd-muted" data-i18n="amenitiesEyebrow">Amenities</p>
+            <h2 class="mt-3 text-3xl font-semibold" data-i18n="amenitiesTitle">A setting designed for dependable business presence</h2>
+          </div>
+
+          <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="reveal rounded-md border border-avd-border p-5"><p data-i18n="amenity1">Prime visibility</p></div>
+            <div class="reveal rounded-md border border-avd-border p-5"><p data-i18n="amenity2">Bank presence</p></div>
+            <div class="reveal rounded-md border border-avd-border p-5"><p data-i18n="amenity3">Accessibility</p></div>
+            <div class="reveal rounded-md border border-avd-border p-5"><p data-i18n="amenity4">Professional environment</p></div>
+            <div class="reveal rounded-md border border-avd-border p-5"><p data-i18n="amenity5">Local trust</p></div>
+            <div class="reveal rounded-md border border-avd-border p-5"><p data-i18n="amenity6">Business-friendly location</p></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quote -->
+      <section class="border-b border-avd-border">
+        <div class="mx-auto max-w-4xl px-6 py-16 text-center md:px-8">
+          <blockquote class="reveal text-2xl font-medium leading-relaxed md:text-3xl" data-i18n="midQuote">
+            AVD Tower stands for long-term trust, steady growth, and meaningful business presence in Azhikode.
+          </blockquote>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <div class="mx-auto grid max-w-6xl gap-10 px-6 py-16 md:grid-cols-2 md:px-8 md:py-24">
+          <div class="reveal">
+            <p class="text-xs uppercase tracking-[0.18em] text-avd-muted" data-i18n="contactEyebrow">Leasing enquiries</p>
+            <h2 class="mt-3 text-3xl font-semibold" data-i18n="contactTitle">Start your leasing conversation</h2>
+            <p class="mt-4 text-avd-muted" data-i18n="contactDesc">
+              Share your requirements and our team will contact you with availability, pricing, and visit details.
+            </p>
+
+            <div class="mt-8 space-y-3 text-sm text-avd-muted">
+              <p><span class="font-semibold text-avd-text" data-i18n="phoneLabel">Phone:</span> +91 00000 00000</p>
+              <p><span class="font-semibold text-avd-text" data-i18n="whatsappLabel">WhatsApp:</span> +91 00000 00000</p>
+              <p><span class="font-semibold text-avd-text" data-i18n="addressLabel">Address:</span> Vankulathuvayal, Azhikode, Kerala</p>
+            </div>
+
+            <a href="https://wa.me/910000000000" class="mt-6 inline-block rounded-md border border-avd-border px-4 py-2 text-sm font-medium hover:border-avd-accent" data-i18n="whatsappButton">Chat on WhatsApp</a>
+            <p id="form-success" class="mt-4 hidden text-sm font-medium text-avd-accent" data-i18n="successMessage">
+              Thank you. Your enquiry has been submitted successfully.
+            </p>
+          </div>
+
+          <form
+            name="avd-leasing"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+            class="reveal space-y-4 rounded-md border border-avd-border bg-white p-6"
+            id="leasing-form"
+            novalidate
+          >
+            <input type="hidden" name="form-name" value="avd-leasing" />
+            <p class="hidden">
+              <label>
+                Don’t fill this out if you’re human: <input name="bot-field" />
+              </label>
+            </p>
+
+            <div>
+              <label for="name" class="mb-1 block text-sm font-medium" data-i18n="fieldName">Name *</label>
+              <input id="name" name="name" required class="w-full rounded-md border border-avd-border bg-avd-bg px-3 py-2 text-sm focus:border-avd-accent focus:outline-none" />
+            </div>
+
+            <div>
+              <label for="phone" class="mb-1 block text-sm font-medium" data-i18n="fieldPhone">Phone *</label>
+              <input id="phone" name="phone" required class="w-full rounded-md border border-avd-border bg-avd-bg px-3 py-2 text-sm focus:border-avd-accent focus:outline-none" />
+            </div>
+
+            <div>
+              <label for="email" class="mb-1 block text-sm font-medium" data-i18n="fieldEmail">Email *</label>
+              <input id="email" type="email" name="email" required class="w-full rounded-md border border-avd-border bg-avd-bg px-3 py-2 text-sm focus:border-avd-accent focus:outline-none" />
+            </div>
+
+            <div>
+              <label for="businessType" class="mb-1 block text-sm font-medium" data-i18n="fieldBusiness">Business type</label>
+              <input id="businessType" name="businessType" class="w-full rounded-md border border-avd-border bg-avd-bg px-3 py-2 text-sm focus:border-avd-accent focus:outline-none" />
+            </div>
+
+            <div>
+              <label for="inquiryType" class="mb-1 block text-sm font-medium" data-i18n="fieldInquiry">Inquiry type</label>
+              <select id="inquiryType" name="inquiryType" class="w-full rounded-md border border-avd-border bg-avd-bg px-3 py-2 text-sm focus:border-avd-accent focus:outline-none">
+                <option value="Leasing" data-i18n="optionLeasing">Leasing</option>
+                <option value="Site Visit" data-i18n="optionVisit">Site Visit</option>
+                <option value="Pricing" data-i18n="optionPricing">Pricing & Terms</option>
+                <option value="General" data-i18n="optionGeneral">General Enquiry</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="message" class="mb-1 block text-sm font-medium" data-i18n="fieldMessage">Message</label>
+              <textarea id="message" name="message" rows="4" class="w-full rounded-md border border-avd-border bg-avd-bg px-3 py-2 text-sm focus:border-avd-accent focus:outline-none"></textarea>
+            </div>
+
+            <button type="submit" class="w-full rounded-md bg-avd-accent px-4 py-3 text-sm font-medium text-white transition hover:bg-avd-text" data-i18n="submitButton">
+              Submit Enquiry
+            </button>
+            <p id="form-error" class="hidden text-sm text-red-700" data-i18n="errorMessage">Please complete required fields before submitting.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-avd-border py-8">
+      <div class="mx-auto flex max-w-6xl flex-col gap-2 px-6 text-sm text-avd-muted md:flex-row md:items-center md:justify-between md:px-8">
+        <p>© <span id="year"></span> AVD Tower</p>
+        <p data-i18n="footerLine">A trusted commercial address in Azhikode, Kerala.</p>
+      </div>
+    </footer>
+
+    <script>
+      const translations = {
+        en: {
+          navFounder: 'Founder', navSpace: 'Space', navAmenities: 'Amenities', navContact: 'Contact',
+          heroEyebrow: 'AVD Tower, Azhikode',
+          heroTitle: 'Professional Space in Azhikode, Built on Legacy',
+          heroSubtitle: 'A refined commercial address in Vankulathuvayal, with strong local presence, established foot traffic, and first-floor space available for lease.',
+          ctaPrimary: 'Enquire for Leasing', ctaSecondary: 'View Space Details',
+          trust1: 'Ground floor occupied by bank', trust2: 'Prime roadside presence', trust3: 'Ideal for office and professional use',
+          heroImagePlaceholder: 'Building facade image placeholder',
+          hl1Label: 'Location', hl1Value: 'Vankulathuvayal, Azhikode, Kerala',
+          hl2Label: 'Occupancy Status', hl2Value: 'Ground floor leased to bank',
+          hl3Label: 'Availability', hl3Value: 'First floor now open for lease',
+          founderEyebrow: 'Founder legacy', founderTitle: 'Built as a homecoming vision',
+          founderP1: "Ashokan CK's story begins in Azhikode. At age 20, he left Kerala to build a future in Saudi Arabia and the Middle East.",
+          founderP2: 'Over 35+ years of disciplined work, he built his reputation through commitment, consistency, and trust.',
+          founderP3: 'AVD Tower was created as his homecoming legacy: a refined commercial address that gives back to his hometown with purposeful, high-quality space for local businesses.',
+          founderQuote: '"This tower is more than a building — it is a return to where my journey began."',
+          founderImagePlaceholder: 'Founder image placeholder',
+          timeline1: 'Early career journey begins from Azhikode', timeline2: '35+ years of professional work in the Gulf', timeline3: 'Returns to Kerala and establishes AVD Tower',
+          spaceEyebrow: 'Space availability', spaceTitle: 'Structured for credible business operations',
+          groundTitle: 'Ground Floor', groundDesc: 'Occupied by a bank, creating strong daily trust and visibility.',
+          firstTitle: 'First Floor (Available)', firstDesc: 'Ready for lease to quality tenants seeking a reliable commercial address.',
+          ideal1: 'Offices', ideal2: 'Clinics', ideal3: 'Consultancies', ideal4: 'Tuition centres',
+          scheduleVisit: 'Schedule a Visit', floorPlanPlaceholder: 'First-floor plan placeholder',
+          amenitiesEyebrow: 'Amenities', amenitiesTitle: 'A setting designed for dependable business presence',
+          amenity1: 'Prime visibility', amenity2: 'Bank presence', amenity3: 'Accessibility', amenity4: 'Professional environment', amenity5: 'Local trust', amenity6: 'Business-friendly location',
+          midQuote: 'AVD Tower stands for long-term trust, steady growth, and meaningful business presence in Azhikode.',
+          contactEyebrow: 'Leasing enquiries', contactTitle: 'Start your leasing conversation',
+          contactDesc: 'Share your requirements and our team will contact you with availability, pricing, and visit details.',
+          phoneLabel: 'Phone:', whatsappLabel: 'WhatsApp:', addressLabel: 'Address:', whatsappButton: 'Chat on WhatsApp',
+          successMessage: 'Thank you. Your enquiry has been submitted successfully.',
+          fieldName: 'Name *', fieldPhone: 'Phone *', fieldEmail: 'Email *', fieldBusiness: 'Business type', fieldInquiry: 'Inquiry type',
+          optionLeasing: 'Leasing', optionVisit: 'Site Visit', optionPricing: 'Pricing & Terms', optionGeneral: 'General Enquiry',
+          fieldMessage: 'Message', submitButton: 'Submit Enquiry',
+          errorMessage: 'Please complete required fields before submitting.',
+          footerLine: 'A trusted commercial address in Azhikode, Kerala.'
+        },
+        ml: {
+          navFounder: 'സ്ഥാപകന്റെ പാരമ്പര്യം', navSpace: 'സ്ഥലം', navAmenities: 'സൗകര്യങ്ങൾ', navContact: 'ബന്ധപ്പെടുക',
+          heroEyebrow: 'എവിഡി ടവർ, അഴിക്കോട്',
+          heroTitle: 'Professional Space in Azhikode, Built on Legacy',
+          heroSubtitle: 'വങ്കുലത്തുവയലിലെ വിശ്വാസ്യതയാർന്ന വാണിജ്യ വിലാസം — മികച്ച സാന്നിധ്യം, സ്ഥിരമായ ആളൊഴുക്ക്, ലീസിന് ലഭ്യമായ ആദ്യ നില.',
+          ctaPrimary: 'ലീസിനായി ബന്ധപ്പെട്ടുക', ctaSecondary: 'സ്ഥല വിവരങ്ങൾ കാണുക',
+          trust1: 'ഗ്രൗണ്ട് ഫ്ലോർ ബാങ്ക് കൈവശം', trust2: 'പ്രധാന റോഡ് സാന്നിധ്യം', trust3: 'ഓഫീസ്, പ്രൊഫഷണൽ ഉപയോഗങ്ങൾക്ക് അനുയോജ്യം',
+          heroImagePlaceholder: 'കെട്ടിടത്തിന്റെ ചിത്രത്തിനുള്ള സ്ഥലം',
+          hl1Label: 'സ്ഥലം', hl1Value: 'വങ്കുലത്തുവയൽ, അഴിക്കോട്, കേരളം',
+          hl2Label: 'ഓക്ക്യുപൻസി നില', hl2Value: 'ഗ്രൗണ്ട് ഫ്ലോർ ബാങ്കിന് ലീസ് നൽകിയിരിക്കുന്നു',
+          hl3Label: 'ലഭ്യത', hl3Value: 'ആദ്യ നില ഇപ്പോൾ ലീസിന് ലഭ്യമാണ്',
+          founderEyebrow: 'സ്ഥാപകന്റെ പാരമ്പര്യം', founderTitle: 'സ്വദേശത്തേക്കുള്ള മടങ്ങിവരവിന്റെ ദർശനം',
+          founderP1: 'അശോകൻ സി.കെ യുടെ കഥ അഴിക്കോടിൽ തുടങ്ങുന്നു. 20-ാം വയസ്സിൽ, ഭാവി നിർമിക്കാൻ അദ്ദേഹം കേരളം വിട്ട് സൗദിയിലേക്കും മിഡിൽ ഈസ്റ്റിലേക്കും പുറപ്പെട്ടു.',
+          founderP2: '35+ വർഷത്തെ പരിശ്രമത്തിലൂടെ, പ്രതിബദ്ധതയും സ്ഥിരതയും വിശ്വാസവും കൊണ്ട് അദ്ദേഹം തന്റെ പ്രതിഷ്ഠ പടുത്തുയർത്തി.',
+          founderP3: 'AVD ടവർ അദ്ദേഹത്തിന്റെ ഹോംകമ്മിംഗ് പാരമ്പര്യമാണ് — നാട്ടിലെ ബിസിനസുകൾക്ക് ഗുണമേന്മയുള്ള പ്രൊഫഷണൽ സ്ഥലം നൽകുന്ന ഉദ്ദേശ്യബോധമുള്ള സംരംഭം.',
+          founderQuote: '"ഈ ടവർ ഒരു കെട്ടിടം മാത്രമല്ല — എന്റെ യാത്ര ആരംഭിച്ച നാട്ടിലേക്കുള്ള തിരിച്ചുവരവ് ആണ്."',
+          founderImagePlaceholder: 'സ്ഥാപകന്റെ ചിത്രത്തിനുള്ള സ്ഥലം',
+          timeline1: 'അഴിക്കോടിൽ നിന്ന് പ്രാരംഭ യാത്ര', timeline2: 'ഗൾഫിൽ 35+ വർഷത്തെ പ്രൊഫഷണൽ അനുഭവം', timeline3: 'കേരളത്തിലേക്ക് മടങ്ങി AVD ടവർ സ്ഥാപിച്ചു',
+          spaceEyebrow: 'ലഭ്യമായ സ്ഥലം', spaceTitle: 'വിശ്വാസ്യതയാർന്ന ബിസിനസ് പ്രവർത്തനങ്ങൾക്ക് അനുയോജ്യമായി രൂപകൽപ്പന ചെയ്തത്',
+          groundTitle: 'ഗ്രൗണ്ട് ഫ്ലോർ', groundDesc: 'ബാങ്ക് പ്രവർത്തനം കൊണ്ട് വിശ്വാസ്യതയും ദൈനംദിന ദൃശ്യമാനതയും ഉറപ്പാക്കുന്നു.',
+          firstTitle: 'ആദ്യ നില (ലഭ്യമാണ്)', firstDesc: 'വിശ്വാസ്യതയുള്ള വാണിജ്യ വിലാസം തേടുന്ന ഗുണമേന്മയുള്ള വാടകക്കാർക്കായി തയ്യാറാണ്.',
+          ideal1: 'ഓഫീസുകൾ', ideal2: 'ക്ലിനിക്കുകൾ', ideal3: 'കൺസൾട്ടൻസികൾ', ideal4: 'ട്യൂഷൻ സെന്ററുകൾ',
+          scheduleVisit: 'സൈറ്റ് സന്ദർശനം നിശ്ചയിക്കുക', floorPlanPlaceholder: 'ആദ്യ നില പ്ലാനിനുള്ള സ്ഥലം',
+          amenitiesEyebrow: 'സൗകര്യങ്ങൾ', amenitiesTitle: 'വിശ്വസനീയമായ ബിസിനസ് സാന്നിധ്യത്തിനായി ഒരുക്കിയ അന്തരീക്ഷം',
+          amenity1: 'പ്രധാന ദൃശ്യമാനത', amenity2: 'ബാങ്ക് സാന്നിധ്യം', amenity3: 'എളുപ്പമുള്ള പ്രവേശനം', amenity4: 'പ്രൊഫഷണൽ അന്തരീക്ഷം', amenity5: 'പ്രാദേശിക വിശ്വാസം', amenity6: 'ബിസിനസ് സൗഹൃദ സ്ഥലം',
+          midQuote: 'ദീർഘകാല വിശ്വാസത്തിന്റെയും സ്ഥിരതയാർന്ന വളർച്ചയുടെയും അഴിക്കോടിലെ ഗൗരവമുള്ള ബിസിനസ് സാന്നിധ്യത്തിന്റെയും അടയാളമാണ് AVD ടവർ.',
+          contactEyebrow: 'ലീസിംഗ് അന്വേഷണങ്ങൾ', contactTitle: 'നിങ്ങളുടെ ലീസിംഗ് സംവാദം ആരംഭിക്കുക',
+          contactDesc: 'നിങ്ങളുടെ ആവശ്യങ്ങൾ പങ്കിടൂ; ലഭ്യത, വില, സന്ദർശന വിവരങ്ങൾ എന്നിവയുമായി ഞങ്ങളുടെ ടീം ബന്ധപ്പെടും.',
+          phoneLabel: 'ഫോൺ:', whatsappLabel: 'വാട്സ്ആപ്പ്:', addressLabel: 'വിലാസം:', whatsappButton: 'WhatsApp-ൽ ചാറ്റ് ചെയ്യുക',
+          successMessage: 'നന്ദി. നിങ്ങളുടെ അന്വേഷണം വിജയകരമായി സമർപ്പിച്ചു.',
+          fieldName: 'പേര് *', fieldPhone: 'ഫോൺ *', fieldEmail: 'ഇമെയിൽ *', fieldBusiness: 'ബിസിനസ് തരം', fieldInquiry: 'അന്വേഷണ തരം',
+          optionLeasing: 'ലീസിംഗ്', optionVisit: 'സൈറ്റ് സന്ദർശനം', optionPricing: 'വില & നിബന്ധനകൾ', optionGeneral: 'പൊതു അന്വേഷണം',
+          fieldMessage: 'സന്ദേശം', submitButton: 'അന്വേഷണം സമർപ്പിക്കുക',
+          errorMessage: 'സമർപ്പിക്കുന്നതിന് മുമ്പ് ആവശ്യമായ ഫീൽഡുകൾ പൂരിപ്പിക്കുക.',
+          footerLine: 'അഴിക്കോട്, കേരളത്തിലെ വിശ്വാസ്യതയാർന്ന വാണിജ്യ വിലാസം.'
+        }
+      };
+
+      const setLanguage = (lang) => {
+        const selected = translations[lang] ? lang : 'en';
+        document.documentElement.lang = selected;
+        localStorage.setItem('avd-lang', selected);
+
+        document.querySelectorAll('[data-i18n]').forEach((el) => {
+          const key = el.dataset.i18n;
+          if (translations[selected][key]) {
+            if (el.tagName === 'INPUT' && el.type !== 'hidden') {
+              el.placeholder = translations[selected][key];
+            } else {
+              el.textContent = translations[selected][key];
+            }
+          }
+        });
+
+        document.querySelectorAll('.lang-btn').forEach((btn) => {
+          const active = btn.dataset.langBtn === selected;
+          btn.classList.toggle('bg-avd-text', active);
+          btn.classList.toggle('text-white', active);
+        });
+      };
+
+      document.querySelectorAll('.lang-btn').forEach((btn) => {
+        btn.addEventListener('click', () => setLanguage(btn.dataset.langBtn));
+      });
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.14 }
+      );
+
+      document.querySelectorAll('.reveal').forEach((el, index) => {
+        el.style.transitionDelay = `${Math.min(index * 45, 220)}ms`;
+        observer.observe(el);
+      });
+
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      const form = document.getElementById('leasing-form');
+      const formError = document.getElementById('form-error');
+      const formSuccess = document.getElementById('form-success');
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        if (!form.checkValidity()) {
+          formError.classList.remove('hidden');
+          return;
+        }
+
+        formError.classList.add('hidden');
+
+        try {
+          const formData = new FormData(form);
+          await fetch('/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams(formData).toString()
+          });
+
+          form.reset();
+          formSuccess.classList.remove('hidden');
+        } catch (error) {
+          formError.classList.remove('hidden');
+        }
+      });
+
+      setLanguage(localStorage.getItem('avd-lang') || 'en');
+    </script>
+  </body>
+</html>
